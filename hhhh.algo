@@ -1,0 +1,32 @@
+ALGORITHM hsan
+VAR
+    str := STRING ;
+    
+    int := INTEGER ;
+    i ,ch  := INTEGER ; // length caractere
+    num := INTEGER ;// numbre word
+    voy := INTEGER ;//numbre voyelle
+
+BEGIN
+   read (ch , str ) ;
+   str:= str+.
+   ch := str.length ;
+   
+   write ('write your str')
+   FOR i FROM 0 TO ch STEP 1  DO
+       IF (ch[i]:= ' ' ) THEN
+      num := i + 1 ;
+
+   END_IF
+   END_FOR
+   FOR i FROM 0 TO str.length STEP 1  DO
+       IF (ch[i] := [a,A,o,O,u,U,I,i]) THEN
+           i:= i+
+           
+       END_IF
+   END_FOR
+   
+
+
+  
+END
